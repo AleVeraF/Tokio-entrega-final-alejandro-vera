@@ -1,0 +1,765 @@
+
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('../asset/BlackOpsOne-Regular.ttf');
+}
+
+body {
+    background-image: url('../imagen/Fondo.PNG');
+    background-attachment: fixed;
+    opacity: 1;
+
+}
+
+#hr {
+    height: 3px;
+    background-color: red;
+    width: 100%;
+    opacity: 1;
+    padding: 0;
+
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header ul li {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.Hero-Conten {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    color: aliceblue;
+    background-attachment: fixed;
+    animation: cambio-color 6s ease-in-out infinite alternate;
+
+}
+
+@keyframes cambio-color {
+    0% {
+        background-image: url(../Imagen/Tokio2.PNG);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    100% {
+        background-image: url(../Imagen/Tokio.PNG);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+}
+
+
+
+.Hero-Conten h1 {
+    font-family: 'BlackOpsOne';
+    -webkit-text-stroke: white 0.5px;
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+
+}
+
+
+
+.HeroConteiner {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    transition: transform 4s ease;
+}
+
+.HeroConteiner img:hover {
+
+    object-fit: cover;
+    height: 380px;
+    width: 480px;
+    border-radius: 10%;
+
+}
+
+.Hero h2 {
+    padding: 15px;
+    text-align: center;
+    font-size: 45px;
+    -webkit-text-stroke: white 1px;
+    color: red;
+}
+
+.HeroConteiner img {
+    object-fit: cover;
+    height: 350px;
+    width: 450px;
+    border-radius: 10%;
+}
+@media (max-width: 1238px) {
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio2.PNG);
+        height: 400px;
+        background-attachment: fixed;
+    }
+
+    .Hero-Conten h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 70px;
+        color: red;
+    }
+
+    .Hero h2 {
+        padding: 15px;
+        text-align: center;
+        font-size: 40px;
+        -webkit-text-stroke: white 1px;
+        color: red;
+    }
+
+    .HeroConteiner {
+        display: flex;
+        gap: 20px;
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .HeroConteiner img {
+        object-fit: cover;
+        height: 200px;
+        width: 300px;
+        border-radius: 10%;
+    }
+
+    .HeroConteiner img:hover {
+
+        object-fit: cover;
+        height: 250px;
+        width: 350px;
+        border-radius: 10%;
+
+    }
+}
+@media (max-width: 768px) {
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio2.PNG);
+        height: 400px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .Hero-Conten h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 70px;
+        color: red;
+    }
+
+    .Hero h2 {
+        padding: 15px;
+        text-align: center;
+        font-size: 40px;
+        -webkit-text-stroke: white 1px;
+        color: red;
+    }
+
+    .HeroConteiner {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .HeroConteiner img {
+        object-fit: cover;
+        height: 300px;
+        width: 400px;
+        border-radius: 10%;
+    }
+
+    .HeroConteiner img:hover {
+
+        object-fit: cover;
+        height: 350px;
+        width: 450px;
+        border-radius: 10%;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .nav {
+        display: grid;
+    }
+
+    header ul {
+        display: flex;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    header ul li {
+        font-size: 18px;
+    }
+
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio.PNG);
+        background-repeat: no-repeat;
+        height: 300px;
+        background-attachment: fixed;
+    }
+
+    .Hero-Conten h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 50px;
+        color: red;
+    }
+
+    .Hero h2 {
+        padding: 15px;
+        text-align: center;
+        font-size: 30px;
+        -webkit-text-stroke: white 1px;
+        color: red;
+    }
+
+    .HeroConteiner {
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .HeroConteiner img {
+        object-fit: cover;
+        height: 250px;
+        width: 350px;
+        border-radius: 10%;
+    }
+
+    .HeroConteiner img:hover {
+
+        object-fit: cover;
+        height: 260px;
+        width: 360px;
+        border-radius: 10%;
+
+    }
+}
+
+footer {
+    background-color: #31363F;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+footer h4 {
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+}
+
+/*---------------SEGUNDA PÁGINA------------*/
+
+.Hero-ContenBarrios {
+    background-image: url(../imagen/giftokio.gif);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Hero-ContenBarrios h1 {
+    font-family: 'BlackOpsOne';
+    -webkit-text-stroke: white 0.5px;
+    padding: 100px;
+    text-align: center;
+    font-size: 80px;
+    color: red;
+}
+
+.Hero-ContenBarrios p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-weight: bold; /* Hace que el texto esté en negrita */
+    -webkit-text-stroke: red 0.5px;
+
+}
+
+
+
+.Hero-Barrios {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.barrios {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.Hero-Barrios h2 {
+    font-family: 'BlackOpsOne';
+    -webkit-text-stroke: white 0.5px;
+    text-align: center;
+    font-size: 35px;
+    color: red;
+}
+
+.Hero-Barrios img {
+    height: 550px;
+    width: 60%;
+    image-rendering: auto; /* O smooth */
+    object-fit: contain;
+
+}
+
+.Hero-Barrios p {
+    font-size: 20px;
+    color: white;
+    -webkit-text-stroke: red 0.2px;
+    text-align: center;
+
+}
+
+.containerIframe {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerBarrios p {
+    color: white;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+
+.containerIframe h3 {
+    text-align: center;
+    font-size: 40px;
+    color: red;
+    -webkit-text-stroke: white 0.5px;
+    padding: 20px;
+}
+
+#iframe iframe {
+    padding: 30px;
+    height: 450px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+@media (max-width: 1164px ) {
+    .Hero-ContenBarrios p {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .Hero-Barrios img {
+        height: 400px;
+        width: 60%;
+        border-radius: 10%;
+        object-fit: cover
+    
+    }
+
+    .Hero-ContenBarrios {
+        height: 350px;
+    }
+
+    .Hero-ContenBarrios p {
+        display: none;
+
+    }
+
+    .Hero-ContenBarrios h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 35px;
+        color: red;
+    }
+
+    .containerIframe h3 {
+        text-align: center;
+        font-size: 40px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        padding: 20px;
+    }
+    
+    #iframe iframe {
+        padding: 30px;
+        height: 450px;
+        width: 80%;
+        position: relative;
+        left: 10%;
+        
+    }
+
+
+
+}
+
+@media (max-width: 550px ) {
+
+    .Hero-ContenBarrios {
+        height: 300px;
+    }
+
+    .Hero-ContenBarrios h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 35px;
+        color: red;
+    }
+    .Hero-Barrios h2 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        font-size: 30px;
+        color: red;
+    }
+
+}
+
+
+
+
+
+
+/*---------------TERCERA PÁGINA------------*/
+
+.Hero-ContenComidas {
+    position: relative; /* Establece la posición relativa para que el video se pueda superponer correctamente */
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    height: 600px; /* Puedes ajustar la altura según tus necesidades */
+    overflow: hidden; /* Asegura que el video no sobresalga de la sección */
+  }
+
+  .HeroComidas h2 {
+    text-align: center;
+    font-size: 55px;
+    -webkit-text-stroke: white 0.5px;
+    color: red;
+    padding-top: 15px;
+
+}
+  
+  .video-background {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta el tamaño del video para cubrir toda la sección */
+    z-index: -1; /* Coloca el video detrás del contenido de la sección */
+    opacity: 0.9;
+    background-attachment: fixed;
+  }
+
+.Hero-ContenComidas h1 {
+    font-family: 'BlackOpsOne';
+    -webkit-text-stroke: white 0.5px;
+    padding: 200px;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+
+}
+
+.comidas h3 {
+    font-size: 30px;
+    -webkit-text-stroke: white 0.5px;
+    color: red;
+
+}
+
+.comidas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas:
+        'Sushi Takoyaki Udon'
+        'Onigiri Ramen Yakitori';
+    gap: 10px;
+    padding: 10px;
+
+
+}
+
+.comidas img {
+
+    width: 100%;
+    height: 350px;
+    padding: 55px;
+    border-radius: 10px;
+}
+
+.comidas h3 {
+    text-align: center;
+    font-size: 45px;
+
+}
+
+
+
+.Restaurantes h3 {
+    text-align: center;
+    font-size: 55px;
+    -webkit-text-stroke: white 0.5px;
+    color: red;
+    padding-top: 15px;
+
+}
+
+/*---------------CUARTA PÁGINA ANIME------------*/
+
+.Hero-ContenAnime h1 {
+    font-family: 'BlackOpsOne';
+    -webkit-text-stroke: white 0.5px;
+    padding: 100px;
+    text-align: center;
+    font-size: 100px;
+    color: red;
+
+}
+
+.Hero-ContenAnime {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    color: aliceblue;
+
+    animation: cambio-color-anime 6s ease-in-out infinite alternate;
+
+}
+
+@keyframes cambio-color-anime {
+    0% {
+        background-image: url(../Imagen/Anime/AnimeFondo.PNG);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+    100% {
+        background-image: url(../Imagen/Anime/AnimeFondo1.PNG);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        width: 100%;
+        height: 800px;
+    }
+
+}
+
+.anime {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto;
+    gap: 10px;
+    padding: 10px;
+}
+
+.anime-items {
+    text-align: center;
+    font-size: 20px;
+    -webkit-text-stroke: white 0.5px;
+    color: red;
+    padding-top: 15px;
+    display: grid;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 1.5s ease;
+    /* Transición suave del efecto de giro */
+}
+
+
+
+.anime-items img {
+    height: 300px;
+    width: 300px;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 1s ease;
+    /* Transición suave del efecto de giro */
+
+}
+
+.anime-items img:hover {
+    transform: rotateY(180deg);
+    /* Gira la carta 180 grados al pasar el ratón por encima */
+}
+
+
+
+
+/*---------------CUARTA PÁGINA------------*/
+.Hero-ContenRegistro h1 {
+    font-size: 95px;
+    color: red;
+    -webkit-text-stroke: white 0.5px;
+    padding: 30px;
+    font-family: 'BlackOpsOne';
+    text-align: center;
+
+
+}
+
+.Registro h2 {
+    font-size: 55px;
+    color: red;
+    -webkit-text-stroke: white 0.5px;
+    text-align: center;
+    padding: 30px;
+
+}
+
+
+.Registro {
+    width: 100%;
+    height: 500px;
+}
+
+label {
+    color: red;
+    font-size: 35px;
+    -webkit-text-stroke: white 0.5px;
+
+}
+
+.Registro button {
+    padding: 30px;
+    width: 25%;
+    border-radius: 10px;
+    height: 10px;
+    color: brown;
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/*
+}
+.Hero-Conten4 h1 {
+    width: 100%;
+    position: relative;
+    animation: mover 8s infinite alternate; /* Define la animación 
+  }
+  
+  @keyframes mover {
+    0% {
+      left: 0; /* Posición inicial 
+    }
+    100% {
+      left: calc(50%);
+    }
+  }
+  */
