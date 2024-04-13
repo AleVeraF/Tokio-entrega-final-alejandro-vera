@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../imagen/Fondo.PNG');
+    background-image: url('../imagen/fondo.PNG');
     background-attachment: fixed;
     opacity: 1;
 
@@ -69,7 +69,7 @@ a {
 
 @keyframes cambio-color {
     0% {
-        background-image: url(../Imagen/Tokio2.PNG);
+        background-image: url(../imagen/tokio2.PNG);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -79,7 +79,7 @@ a {
     }
 
     100% {
-        background-image: url(../Imagen/Tokio.PNG);
+        background-image: url(../imagen/tokio.PNG);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
