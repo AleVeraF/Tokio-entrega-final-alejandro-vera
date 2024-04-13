@@ -626,7 +626,7 @@ footer img {
 
 @keyframes cambio-color-anime {
     0% {
-        background-image: url(../Imagen/Anime/AnimeFondo.PNG);
+        background-image: url(../imagen/anime/animefondo.PNG);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -636,7 +636,7 @@ footer img {
     }
 
     100% {
-        background-image: url(../Imagen/Anime/AnimeFondo1.PNG);
+        background-image: url(../imagen/anime/animefondo1.PNG);
         background-size: cover;
         background-attachment: fixed;
         background-repeat: no-repeat;
