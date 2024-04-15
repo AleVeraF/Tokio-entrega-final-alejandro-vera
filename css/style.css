@@ -24,36 +24,21 @@ header img {
     width: 100px;
 }
 
-.nav {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
+.fondo {
+    background-image: url('../imagen/fondo.PNG');
 }
 
-
-header ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-header ul li {
-    text-align: center;
+.botones {
     font-size: 25px;
-    text-decoration: none;
-    padding-bottom: 5px;
+    color: white;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-    padding: 15px;
+.navbar-toggler {
+    background-color: white;
+}
+
+.botones :hover {
+    color: red;
 }
 
 .Hero-Conten {
@@ -578,26 +563,20 @@ footer img {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
     grid-template-areas:
-        'Sushi Takoyaki Udon'
-        'Onigiri Ramen Yakitori';
+        'sushi takoyaki udon'
+        'onigiri ramen yakitori';
     gap: 10px;
     padding: 10px;
-
-
+    place-items: center;
+    /* Esto centra el contenido tanto horizontal como verticalmente */
+ 
+    
 }
 
-.comidas img {
-
-    width: 100%;
-    height: 350px;
-    padding: 55px;
-    border-radius: 10px;
-}
-
-.comidas h3 {
+.card-body {
+    background-color: gray;
     text-align: center;
-    font-size: 45px;
-
+    height: 250px;
 }
 
 

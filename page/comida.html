@@ -14,20 +14,43 @@
 
 <body>
     <header>
-            <nav>
-                <section class="nav">
-                    <a href="../index.html"><img src="../imagen/logo.PNG" alt="Logo"></a>
-                    <ul class="Navegador">
-                        <li><a href="./visita.html">¿Que Visitar?</a> </li>
-                        <li><a href="./comida.html">Comida</a></li>
-                        <li><a href="./anime.html">Anime</a></li>
-                        <li><a href="./registro.html">Registro</a></li>
-                    </ul>
-                </section>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fondo">
+                <div class="container-fluid">
+                    <a href="../index.html" class="navbar-brand" ><img src="../imagen/logo.PNG" alt="Logo"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item botones">
+                                <a class="nav-link botones" aria-current="page" href="../page/visita.html">¿Que visitar?</a>
+                            </li>
+                            <li class="nav-item botones">
+                                <a class="nav-link botones" href="../page/comida.html">Comida</a>
+                            </li>
+                            <li class="nav-item botones">
+                                <a class="nav-link botones" href="../page/anime.html">Anime</a>
+                            </li>
+                            <li class="nav-item botones">
+                                <a class="nav-link botones" href="../page/registro.html">Registro</a>
+                            </li>
+    
+                            </li>
+    
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
             </nav>
-            
-    </header>
+   
     <hr id="hr">
+</header>
     <main>
         <section class="Hero-ContenComidas">
             <article>
@@ -42,30 +65,54 @@
         <section class="HeroComidas">
             <h2>Platos Famosos</h2>
             <article class="comidas">
-                <div class="Sushi">
-                    <h3>Sushi</h3>
-                    <img src="../imagen/comida/sushi.PNG" alt="Sushi">
-                </div>
-                <div class="Takoyaki">
-                    <h3>Takoyaki</h3>
-                    <img src="../imagen/comida/takoyaki.PNG" alt="Takoyaki">
-                </div>
-                <div class="Udon">
-                    <h3>Udon</h3>
-                    <img src="../imagen/comida/udon.PNG" alt="Udon">
-                </div>
-                <div class="Onigiri">
-                    <h3>Onigiri</h3>
-                    <img src="../imagen/comida/onigiri.PNG" alt="Onigiri">
-                </div>
-                <div class="Ramen">
-                    <h3>Ramen</h3>
-                    <img src="../imagen/comida/ramen.PNG" alt="Ramen">
-                </div>
-                <div class="Yakitori">
-                    <h3>Yakitori</h3>
-                    <img src="../imagen/comida/yakitori.PNG" alt="Yakitori">
-                </div>
+                <div class="card sushi" style="width: 18rem;">
+                    <img src="../imagen/comida/sushi.PNG" class="card-img-top" alt="Plato de Sushi">
+                    <div class="card-body">
+                      <h5 class="card-title">Sushi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card takoyaki" style="width: 18rem;">
+                    <img src="../imagen/comida/takoyaki.PNG" class="card-img-top" alt="Plato de Takoyaki">
+                    <div class="card-body">
+                      <h5 class="card-title">Takoyaki</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card udon" style="width: 18rem;">
+                    <img src="../imagen/comida/udon.PNG" class="card-img-top" alt="Plato de Udon">
+                    <div class="card-body">
+                      <h5 class="card-title">Udon</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card onigiri" style="width: 18rem;">
+                    <img src="../imagen/comida/onigiri.PNG" class="card-img-top" alt="Plato de Onigiri">
+                    <div class="card-body">
+                      <h5 class="card-title">Onigiri</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card ramen" style="width: 18rem;">
+                    <img src="../imagen/comida/ramen.PNG" class="card-img-top" alt="Plato de Ramen">
+                    <div class="card-body">
+                      <h5 class="card-title">Ramen</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="card yakitori" style="width: 18rem;">
+                    <img src="../imagen/comida/yakitori.PNG" class="card-img-top" alt="Plato de Yakitori">
+                    <div class="card-body">
+                      <h5 class="card-title">Yakitori</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                  </div>
             </article>
         </section>
         <hr id="hr">
