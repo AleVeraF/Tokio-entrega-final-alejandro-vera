@@ -478,25 +478,28 @@ footer img {
 @media (max-width: 550px) {
 
     .Hero-ContenBarrios {
+        background-image: none;
         height: 300px;
         background-size: cover;
     }
+
+    
 
     .Hero-ContenBarrios h1 {
         font-family: 'BlackOpsOne';
         -webkit-text-stroke: white 0.5px;
         padding: 100px;
         text-align: center;
-        font-size: 35px;
+        font-size: 38px;
         color: red;
     }
 
     .Hero-Barrios h2 {
         font-family: 'BlackOpsOne';
-        -webkit-text-stroke: white 0.5px;
+        -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
         text-align: center;
         font-size: 30px;
-        color: red;
+        color:rgb(165, 163, 163);
     }
 
 }
@@ -741,13 +744,15 @@ footer img {
     justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 1s ease;
+    transition: transform 2s ease;
     /* Transición suave del efecto de giro */
 
 }
 
 .anime-items img:hover {
     transform: rotateY(180deg);
+    height: 300px;
+    width: 300px;
     /* Gira la carta 180 grados al pasar el ratón por encima */
 }
 
@@ -874,5 +879,32 @@ label {
 input {
     padding: 5px;
     border-radius: 5px;
+}
+
+@media (max-width: 870px) {
+    .RegistroForm img  {
+        display: none;
+    }
+
+    .Hero-ContenRegistro h1 {
+        font-size: 75px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        padding: 30px;
+        font-family: 'BlackOpsOne';
+        text-align: center;
+    
+    
+    }
+    
+    .Registro h2 {
+        font-size: 35px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        padding: 30px;
+    
+    }
+
 }
 
