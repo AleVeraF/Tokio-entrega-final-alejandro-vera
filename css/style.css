@@ -707,7 +707,7 @@ footer img {
 .anime {
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: auto;
+    grid-template-rows:max-content;
     gap: 5px;
     padding: 5px;
 }
@@ -749,6 +749,60 @@ footer img {
 .anime-items img:hover {
     transform: rotateY(180deg);
     /* Gira la carta 180 grados al pasar el ratón por encima */
+}
+
+@media (max-width: 1240px) {
+
+    .anime {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto; 
+        gap: 5px;
+        padding: 5px;
+    }
+}
+
+
+@media (max-width: 1100px) {
+
+    .anime {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto; 
+        gap: 5px;
+        padding: 5px;
+    }
+
+    .Hero-ContenAnime h1 {
+       
+        font-size: 85px;
+        
+    }
+}
+
+@media (max-width: 750px) {
+
+    .anime {
+        display: flex;
+        flex-direction: column;
+        place-items: center;
+    }
+
+    .Hero-ContenAnime h1 {
+        color: white;
+       font-size: 40px; 
+       -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
+    }
+
+    .Hero-ContenAnime {
+        width: 100%;
+        object-fit: cover;
+        color: aliceblue;
+    
+        animation: none;
+        background-image: url(../imagen/anime/anime.PNG);
+        background-repeat: no-repeat;
+    }
 }
 
 
