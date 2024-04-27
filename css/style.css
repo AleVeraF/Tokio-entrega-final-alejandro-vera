@@ -17,25 +17,23 @@ body {
   padding: 0;
 }
 
-header img {
-  height: 100px;
-  width: 100px;
-}
-
 .fondo {
   background-image: url("../imagen/fondo.PNG");
 }
 
-.botones {
+header img {
+  height: 150px;
+  width: 150px;
+}
+
+nav .botones {
   font-size: 25px;
   color: white;
 }
-
-.navbar-toggler {
+nav .navbar-toggler {
   background-color: white;
 }
-
-.botones :hover {
+nav .botones :hover {
   color: red;
 }
 
@@ -47,7 +45,6 @@ header img {
   background-attachment: fixed;
   animation: cambio-color 6s ease-in-out infinite alternate;
 }
-
 @keyframes cambio-color {
   0% {
     background-image: url(../imagen/tokio2.PNG);
@@ -87,11 +84,16 @@ header img {
   grid-template-rows: auto;
   transition: transform 4s ease;
 }
-
 .HeroConten img:hover {
   object-fit: cover;
   height: 380px;
   width: 480px;
+  border-radius: 10%;
+}
+.HeroConten img {
+  object-fit: cover;
+  height: 350px;
+  width: 450px;
   border-radius: 10%;
 }
 
@@ -101,13 +103,6 @@ header img {
   font-size: 45px;
   -webkit-text-stroke: white 1px;
   color: red;
-}
-
-.HeroConten img {
-  object-fit: cover;
-  height: 350px;
-  width: 450px;
-  border-radius: 10%;
 }
 
 @media (max-width: 1238px) {
@@ -199,9 +194,6 @@ header img {
   }
 }
 @media (max-width: 480px) {
-  .nav {
-    display: grid;
-  }
   header ul {
     display: flex;
     list-style-type: none;
@@ -241,12 +233,6 @@ header img {
     margin: auto;
     grid-template-columns: 1fr;
   }
-  .HeroConteiner img {
-    object-fit: cover;
-    height: 250px;
-    width: 350px;
-    border-radius: 10%;
-  }
   .HeroConten img:hover {
     object-fit: cover;
     height: 260px;
@@ -260,17 +246,14 @@ footer {
   width: 100%;
   text-align: center;
 }
-
 footer h3 {
   font-size: 15px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
 footer h4 {
   font-size: 12px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-
 footer img {
   height: 30px;
   width: 30px;
