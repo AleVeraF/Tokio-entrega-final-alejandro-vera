@@ -338,35 +338,58 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+
+    h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 80px;
+        color: red;
+    }
+
+    p {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        /* Hace que el texto esté en negrita */
+        -webkit-text-stroke: red 0.5px;
+
+    }
 }
-
-.Hero-ContenBarrios h1 {
-    font-family: 'BlackOpsOne';
-    -webkit-text-stroke: white 0.5px;
-    padding: 100px;
-    text-align: center;
-    font-size: 80px;
-    color: red;
-}
-
-.Hero-ContenBarrios p {
-    color: white;
-    font-size: 30px;
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 20px;
-    font-weight: bold;
-    /* Hace que el texto esté en negrita */
-    -webkit-text-stroke: red 0.5px;
-
-}
-
-
 
 .Hero-Barrios {
     padding: 20px;
     display: flex;
     align-items: center;
+
+    h2 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        font-size: 35px;
+        color: red;
+    }
+
+    img {
+        height: 550px;
+        width: 60%;
+        image-rendering: auto;
+        /* O smooth */
+        object-fit: contain;
+
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+        -webkit-text-stroke: red 0.2px;
+        text-align: center;
+
+    }
 
 }
 
@@ -377,51 +400,25 @@ footer {
 }
 
 
-
-
-.Hero-Barrios h2 {
-    font-family: 'BlackOpsOne';
-    -webkit-text-stroke: white 0.5px;
-    text-align: center;
-    font-size: 35px;
-    color: red;
-}
-
-.Hero-Barrios img {
-    height: 550px;
-    width: 60%;
-    image-rendering: auto;
-    /* O smooth */
-    object-fit: contain;
-
-}
-
-.Hero-Barrios p {
-    font-size: 20px;
-    color: white;
-    -webkit-text-stroke: red 0.2px;
-    text-align: center;
-
-}
-
 .containerIframe {
     display: flex;
     flex-direction: column;
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        padding: 20px;
+    }
 }
 
-.containerBarrios p {
-    color: white;
-    font-size: 20px;
-    padding-bottom: 20px;
-}
-
-
-.containerIframe h3 {
-    text-align: center;
-    font-size: 40px;
-    color: red;
-    -webkit-text-stroke: white 0.5px;
-    padding: 20px;
+.containerBarrios {
+    p {
+        color: white;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 #iframe iframe {
@@ -433,45 +430,53 @@ footer {
 }
 
 @media (max-width: 1164px) {
-    .Hero-ContenBarrios p {
-        display: none;
-    }
+    .Hero-ContenBarrios {
 
+        p {
+            display: none;
+        }
+
+    }
 }
 
 
 @media (max-width: 768px) {
-    .Hero-Barrios img {
-        height: 400px;
-        width: 60%;
-        border-radius: 10%;
-        object-fit: cover
+    .Hero-Barrios {
+        img {
+            height: 400px;
+            width: 60%;
+            border-radius: 10%;
+            object-fit: cover
+        }
     }
 
     .Hero-ContenBarrios {
         height: 350px;
+
+        p {
+            display: none;
+
+        }
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 35px;
+            color: red;
+        }
     }
 
-    .Hero-ContenBarrios p {
-        display: none;
+    .containerIframe {
 
-    }
-
-    .Hero-ContenBarrios h1 {
-        font-family: 'BlackOpsOne';
-        -webkit-text-stroke: white 0.5px;
-        padding: 100px;
-        text-align: center;
-        font-size: 35px;
-        color: red;
-    }
-
-    .containerIframe h3 {
-        text-align: center;
-        font-size: 40px;
-        color: red;
-        -webkit-text-stroke: white 0.5px;
-        padding: 20px;
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            color: red;
+            -webkit-text-stroke: white 0.5px;
+            padding: 20px;
+        }
     }
 
     #iframe iframe {
@@ -493,33 +498,27 @@ footer {
         background-image: none;
         height: 300px;
         background-size: cover;
-    }
 
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 38px;
+            color: red;
+        }
 
+        h2 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(165, 163, 163);
+        }
 
-    .Hero-ContenBarrios h1 {
-        font-family: 'BlackOpsOne';
-        -webkit-text-stroke: white 0.5px;
-        padding: 100px;
-        text-align: center;
-        font-size: 38px;
-        color: red;
-    }
-
-    .Hero-Barrios h2 {
-        font-family: 'BlackOpsOne';
-        -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
-        text-align: center;
-        font-size: 30px;
-        color: rgb(165, 163, 163);
     }
 
 }
-
-
-
-
-
 
 /*---------------TERCERA PÁGINA------------*/
 
@@ -528,6 +527,15 @@ footer {
     opacity: 0.9;
     background-attachment: fixed;
     position: relative;
+
+    h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: black 1px;
+        padding: 200px;
+        text-align: center;
+        font-size: 100px;
+        color: red;
+    }
 }
 
 
@@ -537,26 +545,6 @@ footer {
     -webkit-text-stroke: white 0.5px;
     color: red;
     padding-top: 15px;
-
-}
-
-
-
-.Hero-ContenComidas h1 {
-    font-family: 'BlackOpsOne';
-    -webkit-text-stroke: black 1px;
-    padding: 200px;
-    text-align: center;
-    font-size: 100px;
-    color: red;
-
-
-}
-
-.comidas h3 {
-    font-size: 30px;
-    -webkit-text-stroke: white 0.5px;
-    color: red;
 
 }
 
@@ -570,26 +558,32 @@ footer {
     gap: 10px;
     padding: 10px;
     place-items: center;
+
     /* Esto centra el contenido tanto horizontal como verticalmente */
+    h3 {
+        font-size: 30px;
+        -webkit-text-stroke: white 0.5px;
+        color: red;
 
+    }
+
+    .card-body {
+        background-color: rgb(214, 71, 71);
+        text-align: center;
+        height: 250px;
+    }
 
 }
 
-.card-body {
-    background-color: rgb(214, 71, 71);
-    text-align: center;
-    height: 250px;
-}
+.Restaurantes {
 
-
-
-.Restaurantes h3 {
-    text-align: center;
-    font-size: 55px;
-    -webkit-text-stroke: white 0.5px;
-    color: red;
-    padding-top: 15px;
-
+    h3 {
+        text-align: center;
+        font-size: 55px;
+        -webkit-text-stroke: white 0.5px;
+        color: red;
+        padding-top: 15px;
+    }
 }
 
 @media (max-width: 923px) {
@@ -610,25 +604,21 @@ footer {
 
     }
 
-    .Hero-ContenComidas h1 {
-        font-family: 'BlackOpsOne';
-        -webkit-text-stroke: white 0.5px;
-        padding: 100px;
-        text-align: center;
-        font-size: 75px;
-        color: red;
-
-    }
-
     .Hero-ContenComidas {
-
         width: 100%;
         /* Puedes ajustar el ancho según tus necesidades */
         height: 400px;
+
         /* Puedes ajustar la altura según tus necesidades */
-
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 75px;
+            color: red;
+        }
     }
-
 }
 
 @media (max-width: 624px) {
@@ -640,6 +630,20 @@ footer {
         position: relative;
         background-repeat: no-repeat;
         background-size: contain;
+        width: 100%;
+        /* Puedes ajustar el ancho según tus necesidades */
+        height: 200px;
+
+        /* Puedes ajustar la altura según tus necesidades */
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: black 0.5px;
+            padding: 50px;
+            text-align: center;
+            font-size: 45px;
+            color: red;
+
+        }
     }
 
     .comidas {
@@ -649,42 +653,10 @@ footer {
         padding: 10px;
         place-items: center;
         /* Esto centra el contenido tanto horizontal como verticalmente */
-
-
     }
-
-    .Hero-ContenComidas h1 {
-        font-family: 'BlackOpsOne';
-        -webkit-text-stroke: black 0.5px;
-        padding: 50px;
-        text-align: center;
-        font-size: 45px;
-        color: red;
-
-    }
-
-    .Hero-ContenComidas {
-
-        width: 100%;
-        /* Puedes ajustar el ancho según tus necesidades */
-        height: 200px;
-        /* Puedes ajustar la altura según tus necesidades */
-
-    }
-
 }
 
 /*---------------CUARTA PÁGINA ANIME------------*/
-
-.Hero-ContenAnime h1 {
-    font-family: 'BlackOpsOne';
-    -webkit-text-stroke: white 0.5px;
-    padding: 100px;
-    text-align: center;
-    font-size: 100px;
-    color: red;
-
-}
 
 .Hero-ContenAnime {
     width: 100%;
@@ -694,29 +666,38 @@ footer {
 
     animation: cambio-color-anime 6s ease-in-out infinite alternate;
 
-}
+    @keyframes cambio-color-anime {
+        0% {
+            background-image: url(../imagen/anime/animefondo1.PNG);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 100%;
+            height: 800px;
+        }
 
-@keyframes cambio-color-anime {
-    0% {
-        background-image: url(../imagen/anime/animefondo1.PNG);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        width: 100%;
-        height: 800px;
+        100% {
+            background-image: url(../imagen/anime/animefondo.PNG);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 100%;
+            height: 800px;
+        }
+
     }
 
-    100% {
-        background-image: url(../imagen/anime/animefondo.PNG);
-        background-size: cover;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        object-fit: cover;
-        width: 100%;
-        height: 800px;
-    }
+    h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 100px;
+        color: red;
 
+    }
 }
 
 .anime {
@@ -725,48 +706,48 @@ footer {
     grid-template-rows: max-content;
     gap: 5px;
     padding: 5px;
+
+    .anime-items {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        text-align: center;
+        font-size: 20px;
+        -webkit-text-stroke: white 0.5px;
+        color: red;
+        padding-top: 15px;
+        padding: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        height: 400px;
+        border-radius: 10%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 1.5s ease;
+
+        /* Transición suave del efecto de giro */
+        img {
+            height: 250px;
+            width: 250px;
+            border-radius: 10%;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 2s ease;
+
+            /* Transición suave del efecto de giro */
+            img:hover {
+                transform: rotateY(180deg);
+                height: 300px;
+                width: 300px;
+                /* Gira la carta 180 grados al pasar el ratón por encima */
+            }
+
+        }
+    }
 }
 
-.anime-items {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    text-align: center;
-    font-size: 20px;
-    -webkit-text-stroke: white 0.5px;
-    color: red;
-    padding-top: 15px;
-    padding: 15px;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 400px;
-    border-radius: 10%;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 1.5s ease;
-    /* Transición suave del efecto de giro */
-}
 
-
-
-.anime-items img {
-    height: 250px;
-    width: 250px;
-    border-radius: 10%;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
-    transition: transform 2s ease;
-    /* Transición suave del efecto de giro */
-
-}
-
-.anime-items img:hover {
-    transform: rotateY(180deg);
-    height: 300px;
-    width: 300px;
-    /* Gira la carta 180 grados al pasar el ratón por encima */
-}
 
 @media (max-width: 1240px) {
 
@@ -790,10 +771,13 @@ footer {
         padding: 5px;
     }
 
-    .Hero-ContenAnime h1 {
+    .Hero-ContenAnime {
 
-        font-size: 85px;
+        h1 {
 
+            font-size: 85px;
+
+        }
     }
 }
 
@@ -805,12 +789,6 @@ footer {
         place-items: center;
     }
 
-    .Hero-ContenAnime h1 {
-        color: white;
-        font-size: 40px;
-        -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
-    }
-
     .Hero-ContenAnime {
         width: 100%;
         object-fit: cover;
@@ -819,6 +797,12 @@ footer {
         animation: none;
         background-image: url(../imagen/anime/anime.PNG);
         background-repeat: no-repeat;
+
+        h1 {
+            color: white;
+            font-size: 40px;
+            -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
+        }
     }
 }
 
@@ -837,84 +821,97 @@ footer {
 
 }
 
-.Registro h2 {
-    font-size: 55px;
-    color: red;
-    -webkit-text-stroke: white 0.5px;
-    text-align: center;
-    padding: 30px;
+.Registro {
 
+    h2 {
+        font-size: 55px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        padding: 30px;
+
+    }
+
+    .RegistroForm {
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 550px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        button {
+
+            width: 30%;
+            border-radius: 10px;
+            height: 35px;
+            color: brown;
+            font-size: 20px;
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+
+            .Formulario {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+
+                label {
+                    color: red;
+                    font-size: 28px;
+                    -webkit-text-stroke: white 0.5px;
+
+                }
+
+
+                input {
+                    padding: 5px;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
 }
 
-
-.RegistroForm {
-    display: flex;
-    gap: 50px;
-    width: 100%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-.RegistroForm img {
-    width: 550px;
-    height: 350px;
-    border-radius: 10px;
-}
-
-.Formulario {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 10px;
-}
-
-label {
-    color: red;
-    font-size: 28px;
-    -webkit-text-stroke: white 0.5px;
-
-}
-
-.RegistroForm button {
-
-    width: 30%;
-    border-radius: 10px;
-    height: 35px;
-    color: brown;
-    font-size: 20px;
-    text-align: center;
-    margin: auto;
-    cursor: pointer;
-}
-
-input {
-    padding: 5px;
-    border-radius: 5px;
-}
 
 @media (max-width: 870px) {
-    .RegistroForm img {
-        display: none;
+
+    .Hero-ContenRegistro {
+
+        h1 {
+            font-size: 75px;
+            color: red;
+            -webkit-text-stroke: white 0.5px;
+            padding: 30px;
+            font-family: 'BlackOpsOne';
+            text-align: center;
+
+        }
     }
 
-    .Hero-ContenRegistro h1 {
-        font-size: 75px;
-        color: red;
-        -webkit-text-stroke: white 0.5px;
-        padding: 30px;
-        font-family: 'BlackOpsOne';
-        text-align: center;
+    .Registro {
 
+        h2 {
+            font-size: 35px;
+            color: red;
+            text-align: center;
+            -webkit-text-stroke: white 0.5px;
+            padding: 30px;
 
-    }
+        }
 
-    .Registro h2 {
-        font-size: 35px;
-        color: red;
-        text-align: center;
-        -webkit-text-stroke: white 0.5px;
-        padding: 30px;
+        .RegistroForm {
+            img {
+                display: none;
+            }
+        }
 
     }
 }
