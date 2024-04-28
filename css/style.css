@@ -127,20 +127,20 @@ nav .botones :hover {
     -webkit-text-stroke: white 1px;
     color: red;
   }
-  .HeroConten {
+  .Hero .HeroConten {
     display: flex;
     gap: 20px;
     padding: 10px;
     margin: auto;
     justify-content: center;
   }
-  .HeroConten img {
+  .Hero .HeroConten img {
     object-fit: cover;
     height: 200px;
     width: 300px;
     border-radius: 10%;
   }
-  .HeroConten img:hover {
+  .Hero .HeroConten img:hover {
     object-fit: cover;
     height: 250px;
     width: 350px;
@@ -267,7 +267,6 @@ footer img {
   background-size: cover;
   background-attachment: fixed;
 }
-
 .Hero-ContenBarrios h1 {
   font-family: "BlackOpsOne";
   -webkit-text-stroke: white 0.5px;
@@ -276,7 +275,6 @@ footer img {
   font-size: 80px;
   color: red;
 }
-
 .Hero-ContenBarrios p {
   color: white;
   font-size: 30px;
@@ -293,13 +291,6 @@ footer img {
   display: flex;
   align-items: center;
 }
-
-.barrios {
-  justify-content: center;
-  height: 100%;
-  width: 100%;
-}
-
 .Hero-Barrios h2 {
   font-family: "BlackOpsOne";
   -webkit-text-stroke: white 0.5px;
@@ -307,7 +298,6 @@ footer img {
   font-size: 35px;
   color: red;
 }
-
 .Hero-Barrios img {
   height: 550px;
   width: 60%;
@@ -315,7 +305,6 @@ footer img {
   /* O smooth */
   object-fit: contain;
 }
-
 .Hero-Barrios p {
   font-size: 20px;
   color: white;
@@ -323,23 +312,28 @@ footer img {
   text-align: center;
 }
 
+.barrios {
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
 .containerIframe {
   display: flex;
   flex-direction: column;
 }
-
-.containerBarrios p {
-  color: white;
-  font-size: 20px;
-  padding-bottom: 20px;
-}
-
 .containerIframe h3 {
   text-align: center;
   font-size: 40px;
   color: red;
   -webkit-text-stroke: white 0.5px;
   padding: 20px;
+}
+
+.containerBarrios p {
+  color: white;
+  font-size: 20px;
+  padding-bottom: 20px;
 }
 
 #iframe iframe {
@@ -405,7 +399,7 @@ footer img {
     font-size: 38px;
     color: red;
   }
-  .Hero-Barrios h2 {
+  .Hero-ContenBarrios h2 {
     font-family: "BlackOpsOne";
     -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
     text-align: center;
@@ -420,15 +414,6 @@ footer img {
   background-attachment: fixed;
   position: relative;
 }
-
-.HeroComidas h2 {
-  text-align: center;
-  font-size: 55px;
-  -webkit-text-stroke: white 0.5px;
-  color: red;
-  padding-top: 15px;
-}
-
 .Hero-ContenComidas h1 {
   font-family: "BlackOpsOne";
   -webkit-text-stroke: black 1px;
@@ -438,10 +423,12 @@ footer img {
   color: red;
 }
 
-.comidas h3 {
-  font-size: 30px;
+.HeroComidas h2 {
+  text-align: center;
+  font-size: 55px;
   -webkit-text-stroke: white 0.5px;
   color: red;
+  padding-top: 15px;
 }
 
 .comidas {
@@ -454,8 +441,12 @@ footer img {
   place-items: center;
   /* Esto centra el contenido tanto horizontal como verticalmente */
 }
-
-.card-body {
+.comidas h3 {
+  font-size: 30px;
+  -webkit-text-stroke: white 0.5px;
+  color: red;
+}
+.comidas .card-body {
   background-color: rgb(214, 71, 71);
   text-align: center;
   height: 250px;
@@ -480,6 +471,12 @@ footer img {
     place-items: center;
     /* Esto centra el contenido tanto horizontal como verticalmente */
   }
+  .Hero-ContenComidas {
+    width: 100%;
+    /* Puedes ajustar el ancho según tus necesidades */
+    height: 400px;
+    /* Puedes ajustar la altura según tus necesidades */
+  }
   .Hero-ContenComidas h1 {
     font-family: "BlackOpsOne";
     -webkit-text-stroke: white 0.5px;
@@ -487,12 +484,6 @@ footer img {
     text-align: center;
     font-size: 75px;
     color: red;
-  }
-  .Hero-ContenComidas {
-    width: 100%;
-    /* Puedes ajustar el ancho según tus necesidades */
-    height: 400px;
-    /* Puedes ajustar la altura según tus necesidades */
   }
 }
 @media (max-width: 624px) {
@@ -503,14 +494,10 @@ footer img {
     position: relative;
     background-repeat: no-repeat;
     background-size: contain;
-  }
-  .comidas {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px;
-    place-items: center;
-    /* Esto centra el contenido tanto horizontal como verticalmente */
+    width: 100%;
+    /* Puedes ajustar el ancho según tus necesidades */
+    height: 200px;
+    /* Puedes ajustar la altura según tus necesidades */
   }
   .Hero-ContenComidas h1 {
     font-family: "BlackOpsOne";
@@ -520,23 +507,16 @@ footer img {
     font-size: 45px;
     color: red;
   }
-  .Hero-ContenComidas {
-    width: 100%;
-    /* Puedes ajustar el ancho según tus necesidades */
-    height: 200px;
-    /* Puedes ajustar la altura según tus necesidades */
+  .comidas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    place-items: center;
+    /* Esto centra el contenido tanto horizontal como verticalmente */
   }
 }
 /*---------------CUARTA PÁGINA ANIME------------*/
-.Hero-ContenAnime h1 {
-  font-family: "BlackOpsOne";
-  -webkit-text-stroke: white 0.5px;
-  padding: 100px;
-  text-align: center;
-  font-size: 100px;
-  color: red;
-}
-
 .Hero-ContenAnime {
   width: 100%;
   height: 100%;
@@ -544,7 +524,6 @@ footer img {
   color: aliceblue;
   animation: cambio-color-anime 6s ease-in-out infinite alternate;
 }
-
 @keyframes cambio-color-anime {
   0% {
     background-image: url(../imagen/anime/animefondo1.PNG);
@@ -565,6 +544,15 @@ footer img {
     height: 800px;
   }
 }
+.Hero-ContenAnime h1 {
+  font-family: "BlackOpsOne";
+  -webkit-text-stroke: white 0.5px;
+  padding: 100px;
+  text-align: center;
+  font-size: 100px;
+  color: red;
+}
+
 .anime {
   display: grid;
   grid-template-columns: 24% 24% 24% 24%;
@@ -572,8 +560,7 @@ footer img {
   gap: 5px;
   padding: 5px;
 }
-
-.anime-items {
+.anime .anime-items {
   display: flex;
   flex-direction: column;
   gap: 5px;
@@ -592,8 +579,7 @@ footer img {
   transition: transform 1.5s ease;
   /* Transición suave del efecto de giro */
 }
-
-.anime-items img {
+.anime .anime-items img {
   height: 250px;
   width: 250px;
   border-radius: 10%;
@@ -603,8 +589,7 @@ footer img {
   transition: transform 2s ease;
   /* Transición suave del efecto de giro */
 }
-
-.anime-items img:hover {
+.anime .anime-items img img:hover {
   transform: rotateY(180deg);
   height: 300px;
   width: 300px;
@@ -638,11 +623,6 @@ footer img {
     flex-direction: column;
     place-items: center;
   }
-  .Hero-ContenAnime h1 {
-    color: white;
-    font-size: 40px;
-    -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
-  }
   .Hero-ContenAnime {
     width: 100%;
     object-fit: cover;
@@ -650,6 +630,11 @@ footer img {
     animation: none;
     background-image: url(../imagen/anime/anime.PNG);
     background-repeat: no-repeat;
+  }
+  .Hero-ContenAnime h1 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
   }
 }
 /*---------------CUARTA PÁGINA------------*/
@@ -669,8 +654,7 @@ footer img {
   text-align: center;
   padding: 30px;
 }
-
-.RegistroForm {
+.Registro .RegistroForm {
   display: flex;
   gap: 50px;
   width: 100%;
@@ -678,27 +662,12 @@ footer img {
   justify-content: center;
   align-items: center;
 }
-
-.RegistroForm img {
+.Registro .RegistroForm img {
   width: 550px;
   height: 350px;
   border-radius: 10px;
 }
-
-.Formulario {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 10px;
-}
-
-label {
-  color: red;
-  font-size: 28px;
-  -webkit-text-stroke: white 0.5px;
-}
-
-.RegistroForm button {
+.Registro .RegistroForm button {
   width: 30%;
   border-radius: 10px;
   height: 35px;
@@ -708,16 +677,23 @@ label {
   margin: auto;
   cursor: pointer;
 }
-
-input {
+.Registro .RegistroForm button .Formulario {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.Registro .RegistroForm button .Formulario label {
+  color: red;
+  font-size: 28px;
+  -webkit-text-stroke: white 0.5px;
+}
+.Registro .RegistroForm button .Formulario input {
   padding: 5px;
   border-radius: 5px;
 }
 
 @media (max-width: 870px) {
-  .RegistroForm img {
-    display: none;
-  }
   .Hero-ContenRegistro h1 {
     font-size: 75px;
     color: red;
@@ -732,6 +708,9 @@ input {
     text-align: center;
     -webkit-text-stroke: white 0.5px;
     padding: 30px;
+  }
+  .Registro .RegistroForm img {
+    display: none;
   }
 }
 

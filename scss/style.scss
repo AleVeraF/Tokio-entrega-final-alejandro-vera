@@ -1,3 +1,18 @@
+//base
+@import "base/var";
+@import "base/reset";
+//components
+@import "components/boton";
+@import "components/navbar";
+@import "components/footer";
+//layouts
+@import "layouts/index";
+@import "layouts/visita";
+@import "layouts/comida";
+@import "layouts/anime";
+@import "layouts/registro";
+
+
 @font-face {
     font-family: 'BlackOpsOne';
     src: url('../asset/BlackOpsOne-Regular.ttf');
@@ -156,31 +171,32 @@ nav {
             -webkit-text-stroke: white 1px;
             color: red;
         }
+
+        .HeroConten {
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            margin: auto;
+            justify-content: center;
+
+            img {
+                object-fit: cover;
+                height: 200px;
+                width: 300px;
+                border-radius: 10%;
+            }
+
+            img:hover {
+
+                object-fit: cover;
+                height: 250px;
+                width: 350px;
+                border-radius: 10%;
+
+            }
+        }
     }
 
-    .HeroConten {
-        display: flex;
-        gap: 20px;
-        padding: 10px;
-        margin: auto;
-        justify-content: center;
-
-        img {
-            object-fit: cover;
-            height: 200px;
-            width: 300px;
-            border-radius: 10%;
-        }
-
-        img:hover {
-
-            object-fit: cover;
-            height: 250px;
-            width: 350px;
-            border-radius: 10%;
-
-        }
-    }
 }
 
 @media (max-width: 768px) {
