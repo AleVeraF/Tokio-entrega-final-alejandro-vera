@@ -1,0 +1,112 @@
+.Hero-ContenRegistro {
+
+    h1 {
+        font-size: 95px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        padding: 30px;
+        font-family: 'BlackOpsOne';
+        text-align: center;
+    }
+
+
+}
+
+.Registro {
+
+    h2 {
+        font-size: 55px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        padding: 30px;
+
+    }
+
+    .RegistroForm {
+        display: flex;
+        gap: 50px;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            width: 550px;
+            height: 350px;
+            border-radius: 10px;
+        }
+
+        button {
+
+            width: 30%;
+            border-radius: 10px;
+            height: 35px;
+            color: brown;
+            font-size: 20px;
+            text-align: center;
+            margin: auto;
+            cursor: pointer;
+        }
+
+        .Formulario {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            gap: 10px;
+        }
+
+        label {
+            color: red;
+            font-size: 28px;
+            -webkit-text-stroke: white 0.5px;
+
+        }
+
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+
+    }
+}
+
+
+
+
+@media (max-width: 870px) {
+
+    .Hero-ContenRegistro {
+
+        h1 {
+            font-size: 75px;
+            color: red;
+            -webkit-text-stroke: white 0.5px;
+            padding: 30px;
+            font-family: 'BlackOpsOne';
+            text-align: center;
+
+        }
+    }
+
+    .Registro {
+
+        h2 {
+            font-size: 35px;
+            color: red;
+            text-align: center;
+            -webkit-text-stroke: white 0.5px;
+            padding: 30px;
+
+        }
+
+        .RegistroForm {
+            img {
+                display: none;
+            }
+        }
+
+    }
+}

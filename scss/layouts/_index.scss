@@ -1,0 +1,332 @@
+@font-face {
+    font-family: 'BlackOpsOne';
+    src: url('../asset/BlackOpsOne-Regular.ttf');
+}
+
+body {
+    background-image: url('../imagen/fondo.PNG');
+    background-attachment: fixed;
+    opacity: 1;
+
+}
+
+#hr {
+    height: 3px;
+    background-color: red;
+    width: 100%;
+    opacity: 1;
+    padding: 0;
+
+}
+
+.fondo {
+    background-image: url('../imagen/fondo.PNG');
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+}
+
+nav {
+    .botones {
+        font-size: 25px;
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: white;
+    }
+
+    .botones :hover {
+        color: red;
+    }
+
+}
+
+
+
+.Hero-Conten {
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+    color: aliceblue;
+    background-attachment: fixed;
+    animation: cambio-color 6s ease-in-out infinite alternate;
+
+    @keyframes cambio-color {
+        0% {
+            background-image: url(../imagen/tokio2.PNG);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 100%;
+            height: 800px;
+        }
+
+        100% {
+            background-image: url(../imagen/tokio.PNG);
+            background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            object-fit: cover;
+            width: 100%;
+            height: 800px;
+        }
+
+    }
+
+    h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 100px;
+        color: red;
+
+    }
+
+}
+
+.HeroConten {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    transition: transform 4s ease;
+
+    img:hover {
+        object-fit: cover;
+        height: 380px;
+        width: 480px;
+        border-radius: 10%;
+
+    }
+
+    img {
+        object-fit: cover;
+        height: 350px;
+        width: 450px;
+        border-radius: 10%;
+    }
+}
+
+.Hero {
+
+    h2 {
+        padding: 15px;
+        text-align: center;
+        font-size: 45px;
+        -webkit-text-stroke: white 1px;
+        color: red;
+    }
+}
+
+
+
+@media (max-width: 1238px) {
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio2.PNG);
+        height: 400px;
+        background-attachment: fixed;
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 70px;
+            color: red;
+        }
+    }
+
+
+
+    .Hero {
+
+        h2 {
+            padding: 15px;
+            text-align: center;
+            font-size: 40px;
+            -webkit-text-stroke: white 1px;
+            color: red;
+        }
+
+        .HeroConten {
+            display: flex;
+            gap: 20px;
+            padding: 10px;
+            margin: auto;
+            justify-content: center;
+
+            img {
+                object-fit: cover;
+                height: 200px;
+                width: 300px;
+                border-radius: 10%;
+            }
+
+            img:hover {
+
+                object-fit: cover;
+                height: 250px;
+                width: 350px;
+                border-radius: 10%;
+
+            }
+        }
+    }
+
+}
+
+@media (max-width: 768px) {
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio2.PNG);
+        height: 400px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        height: 100%;
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 70px;
+            color: red;
+        }
+    }
+
+    .Hero {
+
+        h2 {
+            padding: 15px;
+            text-align: center;
+            font-size: 40px;
+            -webkit-text-stroke: white 1px;
+            color: red;
+
+        }
+    }
+
+    .HeroConten {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+        justify-content: center;
+        place-items: center;
+
+        img {
+            object-fit: cover;
+            height: 300px;
+            width: 400px;
+            border-radius: 10%;
+        }
+
+        img:hover {
+
+            object-fit: cover;
+            height: 350px;
+            width: 450px;
+            border-radius: 10%;
+
+        }
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    header {
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        ul li {
+            font-size: 18px;
+        }
+    }
+
+    .Hero-Conten {
+        animation: none;
+        background-image: url(../imagen/tokio.PNG);
+        background-repeat: no-repeat;
+        height: 300px;
+        background-attachment: fixed;
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 50px;
+            color: red;
+        }
+    }
+
+
+    .Hero {
+
+        h2 {
+            padding: 15px;
+            text-align: center;
+            font-size: 30px;
+            -webkit-text-stroke: white 1px;
+            color: red;
+        }
+    }
+
+    .HeroConten {
+        display: grid;
+        gap: 10px;
+        padding: 10px;
+        margin: auto;
+        grid-template-columns: 1fr;
+
+        img:hover {
+            object-fit: cover;
+            height: 260px;
+            width: 360px;
+            border-radius: 10%;
+
+        }
+    }
+
+}
+
+footer {
+    background-color: #31363F;
+    color: white;
+    width: 100%;
+    text-align: center;
+
+    h3 {
+        font-size: 15px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    h4 {
+        font-size: 12px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    }
+
+    img {
+        height: 30px;
+        width: 30px;
+    }
+}

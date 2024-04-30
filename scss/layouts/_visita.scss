@@ -1,0 +1,187 @@
+.Hero-ContenBarrios {
+    background-image: url(../imagen/giftokio.gif);
+    height: 450px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    h1 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        padding: 100px;
+        text-align: center;
+        font-size: 80px;
+        color: red;
+    }
+
+    p {
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 20px;
+        font-weight: bold;
+        /* Hace que el texto esté en negrita */
+        -webkit-text-stroke: red 0.5px;
+
+    }
+}
+
+.Hero-Barrios {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+
+    h2 {
+        font-family: 'BlackOpsOne';
+        -webkit-text-stroke: white 0.5px;
+        text-align: center;
+        font-size: 35px;
+        color: red;
+    }
+
+    img {
+        height: 550px;
+        width: 60%;
+        image-rendering: auto;
+        /* O smooth */
+        object-fit: contain;
+
+    }
+
+    p {
+        font-size: 20px;
+        color: white;
+        -webkit-text-stroke: red 0.2px;
+        text-align: center;
+
+    }
+
+}
+
+.barrios {
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.containerIframe {
+    display: flex;
+    flex-direction: column;
+
+    h3 {
+        text-align: center;
+        font-size: 40px;
+        color: red;
+        -webkit-text-stroke: white 0.5px;
+        padding: 20px;
+    }
+}
+
+.containerBarrios {
+    p {
+        color: white;
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+#iframe iframe {
+    padding: 30px;
+    height: 450px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+@media (max-width: 1164px) {
+    .Hero-ContenBarrios {
+
+        p {
+            display: none;
+        }
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .Hero-Barrios {
+        img {
+            height: 400px;
+            width: 60%;
+            border-radius: 10%;
+            object-fit: cover
+        }
+    }
+
+    .Hero-ContenBarrios {
+        height: 350px;
+
+        p {
+            display: none;
+
+        }
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 35px;
+            color: red;
+        }
+    }
+
+    .containerIframe {
+
+        h3 {
+            text-align: center;
+            font-size: 40px;
+            color: red;
+            -webkit-text-stroke: white 0.5px;
+            padding: 20px;
+        }
+    }
+
+    #iframe iframe {
+        padding: 30px;
+        height: 450px;
+        width: 80%;
+        position: relative;
+        left: 10%;
+
+    }
+
+
+
+}
+
+@media (max-width: 550px) {
+
+    .Hero-ContenBarrios {
+        background-image: none;
+        height: 300px;
+        background-size: cover;
+
+        h1 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: white 0.5px;
+            padding: 100px;
+            text-align: center;
+            font-size: 38px;
+            color: red;
+        }
+
+        h2 {
+            font-family: 'BlackOpsOne';
+            -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
+            text-align: center;
+            font-size: 30px;
+            color: rgb(165, 163, 163);
+        }
+
+    }
+
+}
