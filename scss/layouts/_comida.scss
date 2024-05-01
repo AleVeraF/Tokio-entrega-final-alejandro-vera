@@ -10,7 +10,7 @@
         padding: 200px;
         text-align: center;
         font-size: 100px;
-        color: red;
+        color: $main-color;
     }
 }
 
@@ -18,8 +18,8 @@
 .HeroComidas h2 {
     text-align: center;
     font-size: 55px;
-    -webkit-text-stroke: white 0.5px;
-    color: red;
+    -webkit-text-stroke: $border-color 0.5px;
+    color: $main-color;
     padding-top: 15px;
 
 }
@@ -38,13 +38,13 @@
     /* Esto centra el contenido tanto horizontal como verticalmente */
     h3 {
         font-size: 30px;
-        -webkit-text-stroke: white 0.5px;
-        color: red;
+        -webkit-text-stroke: $border-color 0.5px;
+        color: $main-color;
 
     }
 
     .card-body {
-        background-color: rgb(214, 71, 71);
+        background-color: $main-color;
         text-align: center;
         height: 250px;
     }
@@ -56,8 +56,8 @@
     h3 {
         text-align: center;
         font-size: 55px;
-        -webkit-text-stroke: white 0.5px;
-        color: red;
+        -webkit-text-stroke: $border-color 0.5px;
+        color: $main-color;
         padding-top: 15px;
     }
 }
@@ -88,11 +88,11 @@
         /* Puedes ajustar la altura según tus necesidades */
         h1 {
             font-family: 'BlackOpsOne';
-            -webkit-text-stroke: white 0.5px;
+            -webkit-text-stroke: $border-color 0.5px;
             padding: 100px;
             text-align: center;
             font-size: 75px;
-            color: red;
+            color: $main-color;
         }
     }
 }
@@ -117,7 +117,7 @@
             padding: 50px;
             text-align: center;
             font-size: 45px;
-            color: red;
+            color: $main-color;
 
         }
     }

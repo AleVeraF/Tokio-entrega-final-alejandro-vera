@@ -2,8 +2,8 @@
 
     h1 {
         font-size: 95px;
-        color: red;
-        -webkit-text-stroke: white 0.5px;
+        color: $main-color;
+        -webkit-text-stroke: $border-color 0.5px;
         padding: 30px;
         font-family: 'BlackOpsOne';
         text-align: center;
@@ -16,8 +16,8 @@
 
     h2 {
         font-size: 55px;
-        color: red;
-        -webkit-text-stroke: white 0.5px;
+        color: $main-color;
+        -webkit-text-stroke: $border-color 0.5px;
         text-align: center;
         padding: 30px;
 
@@ -57,9 +57,9 @@
         }
 
         label {
-            color: red;
+            color: $main-color;
             font-size: 28px;
-            -webkit-text-stroke: white 0.5px;
+            -webkit-text-stroke: $border-color 0.5px;
 
         }
 
@@ -82,8 +82,8 @@
 
         h1 {
             font-size: 75px;
-            color: red;
-            -webkit-text-stroke: white 0.5px;
+            color: $main-color;
+            -webkit-text-stroke: $border-color 0.5px;
             padding: 30px;
             font-family: 'BlackOpsOne';
             text-align: center;
@@ -95,9 +95,9 @@
 
         h2 {
             font-size: 35px;
-            color: red;
+            color: $main-color;
             text-align: center;
-            -webkit-text-stroke: white 0.5px;
+            -webkit-text-stroke: $border-color 0.5px;
             padding: 30px;
 
         }

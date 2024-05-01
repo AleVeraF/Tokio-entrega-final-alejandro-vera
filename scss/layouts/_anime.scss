@@ -2,7 +2,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    color: aliceblue;
+    color: $border-color;
 
     animation: cambio-color-anime 6s ease-in-out infinite alternate;
 
@@ -31,11 +31,11 @@
 
     h1 {
         font-family: 'BlackOpsOne';
-        -webkit-text-stroke: white 0.5px;
+        -webkit-text-stroke: $border-color 0.5px;
         padding: 100px;
         text-align: center;
         font-size: 100px;
-        color: red;
+        color: $main-color;
 
     }
 }
@@ -53,8 +53,8 @@
         gap: 5px;
         text-align: center;
         font-size: 20px;
-        -webkit-text-stroke: white 0.5px;
-        color: red;
+        -webkit-text-stroke: $border-color 0.5px;
+        color: $main-color;
         padding-top: 15px;
         padding: 15px;
         justify-content: center;
@@ -133,16 +133,16 @@
     .Hero-ContenAnime {
         width: 100%;
         object-fit: cover;
-        color: aliceblue;
+        color: $border-color;
 
         animation: none;
         background-image: url(../imagen/anime/anime.PNG);
         background-repeat: no-repeat;
 
         h1 {
-            color: white;
+            color: $border-color;
             font-size: 40px;
-            -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
+            -webkit-text-stroke: $main-color 0.5px;
         }
     }
 }

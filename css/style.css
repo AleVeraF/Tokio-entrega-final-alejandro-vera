@@ -11,7 +11,7 @@ body {
 
 #hr {
   height: 3px;
-  background-color: red;
+  background-color: rgb(250, 0, 0);
   width: 100%;
   opacity: 1;
   padding: 0;
@@ -34,14 +34,14 @@ nav .navbar-toggler {
   background-color: white;
 }
 nav .botones :hover {
-  color: red;
+  color: rgb(250, 0, 0);
 }
 
 .Hero-Conten {
   width: 100%;
   height: 700px;
   object-fit: cover;
-  color: aliceblue;
+  color: white;
   background-attachment: fixed;
   animation: cambio-color 6s ease-in-out infinite alternate;
 }
@@ -71,7 +71,7 @@ nav .botones :hover {
   padding: 100px;
   text-align: center;
   font-size: 100px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 
 .HeroConten {
@@ -102,7 +102,7 @@ nav .botones :hover {
   text-align: center;
   font-size: 45px;
   -webkit-text-stroke: white 1px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 
 @media (max-width: 1238px) {
@@ -118,14 +118,14 @@ nav .botones :hover {
     padding: 100px;
     text-align: center;
     font-size: 70px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .Hero h2 {
     padding: 15px;
     text-align: center;
     font-size: 40px;
     -webkit-text-stroke: white 1px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .Hero .HeroConten {
     display: flex;
@@ -162,14 +162,14 @@ nav .botones :hover {
     padding: 100px;
     text-align: center;
     font-size: 70px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .Hero h2 {
     padding: 15px;
     text-align: center;
     font-size: 40px;
     -webkit-text-stroke: white 1px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .HeroConten {
     display: flex;
@@ -217,14 +217,14 @@ nav .botones :hover {
     padding: 100px;
     text-align: center;
     font-size: 50px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .Hero h2 {
     padding: 15px;
     text-align: center;
     font-size: 30px;
     -webkit-text-stroke: white 1px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .HeroConten {
     display: grid;
@@ -272,7 +272,7 @@ footer img {
   padding: 100px;
   text-align: center;
   font-size: 80px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 .Hero-ContenBarrios p {
   color: white;
@@ -282,7 +282,7 @@ footer img {
   padding-bottom: 20px;
   font-weight: bold;
   /* Hace que el texto esté en negrita */
-  -webkit-text-stroke: red 0.5px;
+  -webkit-text-stroke: rgb(250, 0, 0) 0.5px;
 }
 
 .Hero-Barrios {
@@ -295,7 +295,7 @@ footer img {
   -webkit-text-stroke: white 0.5px;
   text-align: center;
   font-size: 35px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 .Hero-Barrios img {
   height: 550px;
@@ -307,7 +307,7 @@ footer img {
 .Hero-Barrios p {
   font-size: 20px;
   color: white;
-  -webkit-text-stroke: red 0.2px;
+  -webkit-text-stroke: rgb(250, 0, 0) 0.2px;
   text-align: center;
 }
 
@@ -324,7 +324,7 @@ footer img {
 .containerIframe h3 {
   text-align: center;
   font-size: 40px;
-  color: red;
+  color: rgb(250, 0, 0);
   -webkit-text-stroke: white 0.5px;
   padding: 20px;
 }
@@ -367,12 +367,12 @@ footer img {
     padding: 100px;
     text-align: center;
     font-size: 35px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .containerIframe h3 {
     text-align: center;
     font-size: 40px;
-    color: red;
+    color: rgb(250, 0, 0);
     -webkit-text-stroke: white 0.5px;
     padding: 20px;
   }
@@ -396,11 +396,11 @@ footer img {
     padding: 100px;
     text-align: center;
     font-size: 38px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .Hero-ContenBarrios h2 {
     font-family: "BlackOpsOne";
-    -webkit-text-stroke: rgb(224, 7, 7) 0.5px;
+    -webkit-text-stroke: rgb(250, 0, 0) 0.5px;
     text-align: center;
     font-size: 30px;
     color: rgb(165, 163, 163);
@@ -418,14 +418,14 @@ footer img {
   padding: 200px;
   text-align: center;
   font-size: 100px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 
 .HeroComidas h2 {
   text-align: center;
   font-size: 55px;
   -webkit-text-stroke: white 0.5px;
-  color: red;
+  color: rgb(250, 0, 0);
   padding-top: 15px;
 }
 
@@ -442,10 +442,10 @@ footer img {
 .comidas h3 {
   font-size: 30px;
   -webkit-text-stroke: white 0.5px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 .comidas .card-body {
-  background-color: rgb(214, 71, 71);
+  background-color: rgb(250, 0, 0);
   text-align: center;
   height: 250px;
 }
@@ -454,7 +454,7 @@ footer img {
   text-align: center;
   font-size: 55px;
   -webkit-text-stroke: white 0.5px;
-  color: red;
+  color: rgb(250, 0, 0);
   padding-top: 15px;
 }
 
@@ -481,7 +481,7 @@ footer img {
     padding: 100px;
     text-align: center;
     font-size: 75px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
 }
 @media (max-width: 624px) {
@@ -503,7 +503,7 @@ footer img {
     padding: 50px;
     text-align: center;
     font-size: 45px;
-    color: red;
+    color: rgb(250, 0, 0);
   }
   .comidas {
     display: flex;
@@ -518,7 +518,7 @@ footer img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  color: aliceblue;
+  color: white;
   animation: cambio-color-anime 6s ease-in-out infinite alternate;
 }
 @keyframes cambio-color-anime {
@@ -547,7 +547,7 @@ footer img {
   padding: 100px;
   text-align: center;
   font-size: 100px;
-  color: red;
+  color: rgb(250, 0, 0);
 }
 
 .anime {
@@ -564,7 +564,7 @@ footer img {
   text-align: center;
   font-size: 20px;
   -webkit-text-stroke: white 0.5px;
-  color: red;
+  color: rgb(250, 0, 0);
   padding-top: 15px;
   padding: 15px;
   justify-content: center;
@@ -623,7 +623,7 @@ footer img {
   .Hero-ContenAnime {
     width: 100%;
     object-fit: cover;
-    color: aliceblue;
+    color: white;
     animation: none;
     background-image: url(../imagen/anime/anime.PNG);
     background-repeat: no-repeat;
@@ -631,12 +631,12 @@ footer img {
   .Hero-ContenAnime h1 {
     color: white;
     font-size: 40px;
-    -webkit-text-stroke: rgb(209, 16, 16) 0.5px;
+    -webkit-text-stroke: rgb(250, 0, 0) 0.5px;
   }
 }
 .Hero-ContenRegistro h1 {
   font-size: 95px;
-  color: red;
+  color: rgb(250, 0, 0);
   -webkit-text-stroke: white 0.5px;
   padding: 30px;
   font-family: "BlackOpsOne";
@@ -645,7 +645,7 @@ footer img {
 
 .Registro h2 {
   font-size: 55px;
-  color: red;
+  color: rgb(250, 0, 0);
   -webkit-text-stroke: white 0.5px;
   text-align: center;
   padding: 30px;
@@ -680,7 +680,7 @@ footer img {
   gap: 10px;
 }
 .Registro .RegistroForm label {
-  color: red;
+  color: rgb(250, 0, 0);
   font-size: 28px;
   -webkit-text-stroke: white 0.5px;
 }
@@ -692,7 +692,7 @@ footer img {
 @media (max-width: 870px) {
   .Hero-ContenRegistro h1 {
     font-size: 75px;
-    color: red;
+    color: rgb(250, 0, 0);
     -webkit-text-stroke: white 0.5px;
     padding: 30px;
     font-family: "BlackOpsOne";
@@ -700,7 +700,7 @@ footer img {
   }
   .Registro h2 {
     font-size: 35px;
-    color: red;
+    color: rgb(250, 0, 0);
     text-align: center;
     -webkit-text-stroke: white 0.5px;
     padding: 30px;
