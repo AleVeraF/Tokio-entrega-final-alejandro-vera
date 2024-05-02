@@ -27,25 +27,6 @@ header img {
     height: 150px;
     width: 150px;
 }
-
-nav {
-    .botones {
-        font-size: 25px;
-        color: white;
-    }
-
-    .navbar-toggler {
-        background-color: $border-color;
-    }
-
-    .botones :hover {
-        color: $main-color;
-    }
-
-}
-
-
-
 .Hero-Conten {
     width: 100%;
     height: 700px;
@@ -307,26 +288,3 @@ nav {
 
 }
 
-footer {
-    background-color: #31363F;
-    color: $border-color;
-    width: 100%;
-    text-align: center;
-
-    h3 {
-        font-size: 15px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    }
-
-    h4 {
-        font-size: 12px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-    }
-
-    img {
-        height: 30px;
-        width: 30px;
-    }
-}

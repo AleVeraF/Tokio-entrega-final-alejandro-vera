@@ -1,0 +1,15 @@
+nav {
+    .botones {
+        font-size: 25px;
+        color: white;
+    }
+
+    .navbar-toggler {
+        background-color: $border-color;
+    }
+
+    .botones :hover {
+        color: $main-color;
+    }
+
+}

@@ -1,4 +1,71 @@
 @charset "UTF-8";
+.button {
+  width: 30%;
+  border-radius: 10px;
+  height: 35px;
+  padding: 0.5px;
+  color: rgb(250, 0, 0);
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+.button:hover {
+  background-color: rgb(250, 0, 0);
+  color: white;
+}
+
+.btn-card {
+  width: 55%;
+  background-color: white;
+  border-radius: 10px;
+  height: 30px;
+  padding: 0.5px;
+  color: rgb(250, 0, 0);
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: auto;
+}
+.btn-card:hover {
+  background-color: rgb(250, 0, 0);
+  color: white;
+  box-shadow: ghostwhite;
+  width: 65%;
+  font-size: 18px;
+  height: 37px;
+}
+
+nav .botones {
+  font-size: 25px;
+  color: white;
+}
+nav .navbar-toggler {
+  background-color: white;
+}
+nav .botones :hover {
+  color: rgb(250, 0, 0);
+}
+
+footer {
+  background-color: #31363F;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+footer h3 {
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+footer h4 {
+  font-size: 12px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+footer img {
+  height: 30px;
+  width: 30px;
+}
+
 @font-face {
   font-family: "BlackOpsOne";
   src: url("../asset/BlackOpsOne-Regular.ttf");
@@ -24,17 +91,6 @@ body {
 header img {
   height: 150px;
   width: 150px;
-}
-
-nav .botones {
-  font-size: 25px;
-  color: white;
-}
-nav .navbar-toggler {
-  background-color: white;
-}
-nav .botones :hover {
-  color: rgb(250, 0, 0);
 }
 
 .Hero-Conten {
@@ -240,25 +296,6 @@ nav .botones :hover {
     border-radius: 10%;
   }
 }
-footer {
-  background-color: #31363F;
-  color: white;
-  width: 100%;
-  text-align: center;
-}
-footer h3 {
-  font-size: 15px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-footer h4 {
-  font-size: 12px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-footer img {
-  height: 30px;
-  width: 30px;
-}
-
 .Hero-ContenBarrios {
   background-image: url(../imagen/giftokio.gif);
   height: 450px;
@@ -445,7 +482,7 @@ footer img {
   color: rgb(250, 0, 0);
 }
 .comidas .card-body {
-  background-color: rgb(250, 0, 0);
+  background-color: rgb(218, 88, 37);
   text-align: center;
   height: 250px;
 }
@@ -662,16 +699,6 @@ footer img {
   width: 550px;
   height: 350px;
   border-radius: 10px;
-}
-.Registro .RegistroForm button {
-  width: 30%;
-  border-radius: 10px;
-  height: 35px;
-  color: brown;
-  font-size: 20px;
-  text-align: center;
-  margin: auto;
-  cursor: pointer;
 }
 .Registro .RegistroForm .Formulario {
   display: flex;
