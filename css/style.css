@@ -597,8 +597,8 @@ header img {
 .anime .anime-items {
   display: flex;
   flex-direction: column;
-  gap: 5px;
   text-align: center;
+  gap: 5px;
   font-size: 20px;
   -webkit-text-stroke: white 0.5px;
   color: rgb(250, 0, 0);
