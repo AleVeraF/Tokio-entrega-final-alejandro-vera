@@ -14,7 +14,10 @@
         color: $main-color;
     }
 
-    p {
+    .Hero-ContenBarrios-P {
+        background-image: url(../imagen/fondo.PNG);
+        height: 250px;
+        width: 100%;
         color: $border-color;
         font-size: 30px;
         text-align: center;
@@ -95,7 +98,7 @@
     left: 25%;
 }
 
-@media (max-width: 1164px) {
+@media (max-width: 1192px) {
     .Hero-ContenBarrios {
 
         p {
@@ -119,7 +122,7 @@
     .Hero-ContenBarrios {
         height: 350px;
 
-        p {
+        .Hero-ContenBarrios-P {
             display: none;
 
         }

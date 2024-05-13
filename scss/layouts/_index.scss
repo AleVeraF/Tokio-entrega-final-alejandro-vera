@@ -27,6 +27,7 @@ header img {
     height: 150px;
     width: 150px;
 }
+
 .Hero-Conten {
     width: 100%;
     height: 700px;
@@ -111,7 +112,7 @@ header img {
 
 @media (max-width: 1238px) {
     .Hero-Conten {
-        animation: none;
+
         background-image: url(../imagen/tokio2.PNG);
         height: 400px;
         background-attachment: fixed;
@@ -172,6 +173,8 @@ header img {
         height: 400px;
         background-attachment: fixed;
         background-repeat: no-repeat;
+        background-attachment: local;
+        background-size:cover;
         height: 100%;
 
         h1 {
@@ -245,8 +248,11 @@ header img {
         animation: none;
         background-image: url(../imagen/tokio.PNG);
         background-repeat: no-repeat;
+
+        background-attachment: local;
+        background-size: cover;
         height: 300px;
-        background-attachment: fixed;
+
 
         h1 {
             font-family: 'BlackOpsOne';
@@ -287,4 +293,3 @@ header img {
     }
 
 }
-

@@ -1,33 +1,17 @@
 .Hero-ContenAnime {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+
     color: $border-color;
 
-    animation: cambio-color-anime 6s ease-in-out infinite alternate;
+    background-image: url(../imagen/anime/giftitan.gif);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 800px;
 
-    @keyframes cambio-color-anime {
-        0% {
-            background-image: url(../imagen/anime/animefondo1.PNG);
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            object-fit: cover;
-            width: 100%;
-            height: 800px;
-        }
-
-        100% {
-            background-image: url(../imagen/anime/animefondo.PNG);
-            background-size: cover;
-            background-attachment: fixed;
-            background-repeat: no-repeat;
-            object-fit: cover;
-            width: 100%;
-            height: 800px;
-        }
-
-    }
 
     h1 {
         font-family: 'BlackOpsOne';
@@ -72,16 +56,16 @@
             transition: transform 2s ease;
         }
 
-            /* Transición suave del efecto de giro */
-            img:hover {
-                transform: rotateY(180deg);
-                height: 300px;
-                width: 300px;
-                /* Gira la carta 180 grados al pasar el ratón por encima */
-            }
-
+        /* Transición suave del efecto de giro */
+        img:hover {
+            transform: rotateY(180deg);
+            height: 300px;
+            width: 300px;
+            /* Gira la carta 180 grados al pasar el ratón por encima */
         }
+
     }
+}
 
 
 
@@ -128,12 +112,12 @@
 
     .Hero-ContenAnime {
         width: 100%;
-        object-fit: cover;
+        height: 350px;
         color: $border-color;
-
-        animation: none;
         background-image: url(../imagen/anime/anime.PNG);
         background-repeat: no-repeat;
+        background-attachment: local;
+        background-size:auto;
 
         h1 {
             color: $border-color;
@@ -142,4 +126,3 @@
         }
     }
 }
-

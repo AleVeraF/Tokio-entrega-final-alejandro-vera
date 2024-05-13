@@ -61,10 +61,6 @@ footer h4 {
   font-size: 12px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
-footer img {
-  height: 30px;
-  width: 30px;
-}
 
 @font-face {
   font-family: "BlackOpsOne";
@@ -163,7 +159,6 @@ header img {
 
 @media (max-width: 1238px) {
   .Hero-Conten {
-    animation: none;
     background-image: url(../imagen/tokio2.PNG);
     height: 400px;
     background-attachment: fixed;
@@ -210,6 +205,8 @@ header img {
     height: 400px;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
     height: 100%;
   }
   .Hero-Conten h1 {
@@ -264,8 +261,9 @@ header img {
     animation: none;
     background-image: url(../imagen/tokio.PNG);
     background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
     height: 300px;
-    background-attachment: fixed;
   }
   .Hero-Conten h1 {
     font-family: "BlackOpsOne";
@@ -311,7 +309,10 @@ header img {
   font-size: 80px;
   color: rgb(250, 0, 0);
 }
-.Hero-ContenBarrios p {
+.Hero-ContenBarrios .Hero-ContenBarrios-P {
+  background-image: url(../imagen/fondo.PNG);
+  height: 250px;
+  width: 100%;
   color: white;
   font-size: 30px;
   text-align: center;
@@ -380,7 +381,7 @@ header img {
   left: 25%;
 }
 
-@media (max-width: 1164px) {
+@media (max-width: 1192px) {
   .Hero-ContenBarrios p {
     display: none;
   }
@@ -395,7 +396,7 @@ header img {
   .Hero-ContenBarrios {
     height: 350px;
   }
-  .Hero-ContenBarrios p {
+  .Hero-ContenBarrios .Hero-ContenBarrios-P {
     display: none;
   }
   .Hero-ContenBarrios h1 {
@@ -528,7 +529,8 @@ header img {
     background-attachment: fixed;
     position: relative;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-attachment: local;
+    background-size: cover;
     width: 100%;
     /* Puedes ajustar el ancho según tus necesidades */
     height: 200px;
@@ -554,29 +556,14 @@ header img {
 .Hero-ContenAnime {
   width: 100%;
   height: 100%;
-  object-fit: cover;
   color: white;
-  animation: cambio-color-anime 6s ease-in-out infinite alternate;
-}
-@keyframes cambio-color-anime {
-  0% {
-    background-image: url(../imagen/anime/animefondo1.PNG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100%;
-    height: 800px;
-  }
-  100% {
-    background-image: url(../imagen/anime/animefondo.PNG);
-    background-size: cover;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    object-fit: cover;
-    width: 100%;
-    height: 800px;
-  }
+  background-image: url(../imagen/anime/giftitan.gif);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 100%;
+  height: 800px;
 }
 .Hero-ContenAnime h1 {
   font-family: "BlackOpsOne";
@@ -659,11 +646,12 @@ header img {
   }
   .Hero-ContenAnime {
     width: 100%;
-    object-fit: cover;
+    height: 350px;
     color: white;
-    animation: none;
     background-image: url(../imagen/anime/anime.PNG);
     background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: auto;
   }
   .Hero-ContenAnime h1 {
     color: white;
